@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta-runner name="Build Status Text">
+  <description>Pub - Fetch Dependencies</description>
+  <settings>
+    <parameters>
+    </parameters>
+    <build-runners>
+      <runner id="RUNNER_8" name="Fetch Dependencies" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="pub get" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <requirements />
+  </settings>
+</meta-runner>
