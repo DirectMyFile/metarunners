@@ -5,7 +5,7 @@
     <parameters>
     </parameters>
     <build-runners>
-      <runner id="RUNNER_8" name="Fetch Dependencies" type="simpleRunner">
+      <runner name="Fetch Dependencies" type="simpleRunner">
         <parameters>
           <param name="script.content" value="pub get" />
           <param name="teamcity.step.mode" value="default" />
