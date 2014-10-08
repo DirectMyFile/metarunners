@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<meta-runner name="Build Status Text">
-  <description>Pub - Fetch Dependencies</description>
+<meta-runner name="Pub - Fetch Dependencies">
+  <description>Fetches Dependencies from Pub</description>
   <settings>
     <parameters>
     </parameters>
