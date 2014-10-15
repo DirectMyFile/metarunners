@@ -9,7 +9,7 @@
       <runner name="Run Dart Script" type="simpleRunner">
 <parameters>
           <param name="script.content">#!/usr/bin/env dart
-![CDATA[%content%]]</param>
+&lt;![CDATA[%content%]]&gt;</param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
