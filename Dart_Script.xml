@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta-runner name="Dart - Run Script">
+  <description>Runs a Dart Script</description>
+  <settings>
+    <parameters>
+      <param name="content" value="" spec="text display='normal' label='Script:' validationMode='any'" />
+    </parameters>
+    <build-runners>
+      <runner name="Run Dart Script" type="simpleRunner">
+<parameters>
+          <param name="script.content">#!/usr/bin/env dart
+![CDATA[%content%]]</param>
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+
+      </runner>
+    </build-runners>
+    <requirements />
+  </settings>
+</meta-runner>
