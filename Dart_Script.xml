@@ -6,7 +6,7 @@
       <param name="content" value="" spec="text display='normal' label='Script:' validationMode='any'" />
     </parameters>
     <build-runners>
-      <runner name="Run Dart Script" type="simpleRunner">
+      <runner name="" type="simpleRunner">
 <parameters>
           <param name="script.content">#!/usr/bin/env dart
 <![CDATA[%content%]]></param>
